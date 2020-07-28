@@ -1,0 +1,41 @@
+text {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  pointer-events: none;
+  font-weight: bold;
+}
+#chart {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 0;
+  left: 0;
+}
+#prize {
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  top: 0;
+  left: 520px;
+}
+#prize h1 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+#total {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  position: 'absolute';
+}
+
+.opacity {
+  visibility: hidden;
+}
